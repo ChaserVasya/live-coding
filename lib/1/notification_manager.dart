@@ -3,11 +3,11 @@ import 'dart:developer' as dev;
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:injectable/injectable.dart';
-import 'package:live_coding/translates.dart';
+import 'package:live_coding/1/translates.dart';
 
 // import 'translates.dart';
 
-import 'flavors.dart';
+import 'flavor.dart';
 
 @singleton
 class NotificationManager {
