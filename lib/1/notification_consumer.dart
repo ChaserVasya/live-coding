@@ -9,9 +9,14 @@ class NotificationConsumer {
 
   final NotificationManager _notificationManager;
 
-  void onLoggedIn() {
+  void onLoggedIn() async {
     FirebaseMessaging.onMessage.listen((RemoteMessage message) {
       _notificationManager.showHeadsUpNotification(message);
     });
+
+    final token = await FirebaseMessaging.instance.getToken();
+    if (token != null) sendToServer(token, "IOS_OR_ANDROID");
   }
 }
+
+void sendToServer(String _, String platform) {}
