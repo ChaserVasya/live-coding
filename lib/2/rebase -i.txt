@@ -1,11 +1,11 @@
 pick df29bbd finish the snippet
-pick a311725 feat 1
-pick 4d1b4b3 feat 1 fix
-pick e8fdebf feat 2
-pick e16646e feat 3
-pick 489800a feat 1 fix2
-pick fe4a3a8 feat 3 fix
-pick ad27611 feat 2 fix
+pick a311725 feat I
+pick 4d1b4b3 feat I   fix
+pick e8fdebf feat II
+pick e16646e feat III
+pick 489800a feat I   fix2
+pick fe4a3a8 feat III fix
+pick ad27611 feat II  fix
 
 # Rebase edd8bdf..ad27611 onto edd8bdf (8 commands)
 #
