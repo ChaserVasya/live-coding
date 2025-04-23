@@ -9,4 +9,4 @@
 - Приложение может перезапускаться. То есть реинициализировать все зависимости
 - инициализация с помощью injectable.
 - Приложение пользуется публичными API класса уведомлений. Примеры 
-  в [notification_consumer.dart](../notification_consumer.dart)
+  в [notification_consumer.dart](notification_consumer.dart)
