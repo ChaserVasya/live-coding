@@ -6,19 +6,15 @@ import 'package:injectable/injectable.dart';
 
 // import 'translates.dart';
 
-import 'flavor.dart';
-
 @singleton
 class NotificationManager {
   NotificationManager(
     this._notificationPlugin,
     this._firebaseMessaging,
-    this._flavor,
   );
 
   final FlutterLocalNotificationsPlugin _notificationPlugin;
   final FirebaseMessaging _firebaseMessaging;
-  final Flavor _flavor;
 
   /// Инициализирует FirebaseMessaging
   @preResolve
